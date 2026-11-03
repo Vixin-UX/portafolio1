@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2f196d">
+  <meta name="description" content="Portafolio de Giel Violeta: diseñadora gráfica e ilustradora. Branding, social media e ilustración. Proyectos PELKU y Cangaru.">
+  <meta property="og:title" content="Giel Violeta — Portafolio">
+  <meta property="og:description" content="Diseñadora gráfica e ilustradora. Branding, social media e ilustración.">
+  <meta property="og:image" content="assets/full/p01.webp">
+  <title>Giel Violeta — Portafolio</title>
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preload" as="image" href="assets/p01.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+  <!-- A. PANTALLA DE ENTRADA -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__word"><span>g</span><span>i</span><span>e</span><span>l</span><i class="intro__dot"></i></div>
+    <p class="intro__sub">Diseñadora · Ilustradora</p>
+  </div>
+
+  <!-- B. NAVEGACIÓN -->
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio" aria-label="Giel, ir al inicio">giel<i></i></a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menú"><span></span><span></span></button>
+    <nav class="nav__menu" id="navMenu" aria-label="Secciones del portafolio">
+      <a href="#inicio" data-sec="inicio">Inicio</a>
+      <a href="#indice" data-sec="indice">Índice</a>
+      <a href="#perfil" data-sec="perfil">Perfil</a>
+      <a href="#marca" data-sec="marca">Marca</a>
+      <a href="#branding" data-sec="branding">Branding</a>
+      <a href="#pelku" data-sec="pelku">PELKU</a>
+      <a href="#cangaru" data-sec="cangaru">Cangaru</a>
+      <a href="#contacto" data-sec="contacto">Contacto</a>
+      <span class="nav__ind" aria-hidden="true"></span>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="sr-only">Giel Violeta — Portafolio de diseñadora gráfica e ilustradora</h1>
+
+    <!-- 1. PORTADA -->
+    <section id="inicio" class="sec cover" data-title="Portada">
+      <figure class="cover__fig depth" data-full="assets/full/p01.webp" data-y="0">
+        <img src="assets/p01.webp" width="1800" height="1215" fetchpriority="high"
+             alt="Portada: Portfolio. Diseñadora e ilustradora, por Giel Violeta">
+      </figure>
+      <a class="cover__hint" href="#indice" aria-label="Bajar al índice"><span></span></a>
+    </section>
+
+    <!-- 2. ÍNDICE -->
+    <section id="indice" class="sec" data-title="Índice">
+      <figure class="reveal zoomable" data-full="assets/full/p02.webp" data-y="0">
+        <img src="assets/p02.webp" width="1800" height="1215" loading="lazy"
+             alt="Índice: Presentación, Branding, Social Media, Ilustración">
+        <a class="hot" style="left:7%;top:31%;width:33%;height:9%" href="#perfil" aria-label="Ir a Presentación"></a>
+        <a class="hot" style="left:7%;top:41%;width:33%;height:9%" href="#branding" aria-label="Ir a Branding"></a>
+      </figure>
+    </section>
+
+    <!-- 3. PRESENTACIÓN Y PERFIL -->
+    <section id="perfil" class="sec" data-title="Presentación y perfil">
+      <div class="pan" data-pan>
+        <figure class="reveal zoomable" data-full="assets/full/p03.webp" data-y="0">
+          <img src="assets/p03.webp" width="1800" height="1215" loading="lazy"
+               alt="Presentación: Giel, diseñadora e ilustradora. Educación, idiomas, certificados y logros">
+          <a class="hot" style="left:30%;top:39.5%;width:27%;height:8%" href="https://www.behance.net/gielvioleta" target="_blank" rel="noopener" aria-label="Behance de Giel Violeta"></a>
+          <a class="hot" style="left:58.5%;top:39.5%;width:29%;height:8%" href="mailto:giaselvioleta22feb@gmail.com" aria-label="Escribir a giaselvioleta22feb@gmail.com"></a>
+        </figure>
+      </div>
+      <p class="pan__hint">Desliza para recorrer · toca para ampliar</p>
+      <div class="sr-only">
+        <p>Diseñadora gráfica enfocada en branding, social media, edición e ilustración. Me interesa entender cada marca, sus objetivos y su personalidad para crear soluciones visuales que comuniquen con intención.</p>
+        <p>Educación: Arte y Diseño Gráfico Empresarial, Universidad César Vallejo, Lima, Perú, 2022–actualidad. Idiomas: EF SET Certificate, inglés intermedio alto. Certificados: acreditación en computación, niveles I–III, Universidad César Vallejo. Logros: desarrolladora de gráfica publicitaria, certificada por la Universidad César Vallejo, 05-25.</p>
+      </div>
+    </section>
+
+    <!-- 4. MI MARCA PERSONAL -->
+    <section id="marca" class="sec" data-title="Mi marca personal">
+      <div class="pan" data-pan>
+        <figure class="reveal zoomable" data-full="assets/full/p04.webp" data-y="0">
+          <img src="assets/p04.webp" width="1800" height="1215" loading="lazy"
+               alt="Mi marca personal: concepto y esencia, evolución, detalles tipográficos, paleta de colores #2f196d y #ff551a, tipografía Gilroy">
+        </figure>
+      </div>
+      <p class="pan__hint">Desliza para recorrer · toca para ampliar</p>
+      <div class="sr-only">
+        <p>El logotipo de Giel es tipográfico, expresivo y contemporáneo. Evolucionó de una estructura geométrica en líneas a un trazo limpio y de alto impacto. Paleta: #2f196d y #ff551a. Tipografía: Gilroy.</p>
+      </div>
+    </section>
+
+    <!-- 5. BRANDING (separador) -->
+    <section id="branding" class="sec" data-title="Branding">
+      <figure class="reveal zoomable sep" data-full="assets/full/p05.webp" data-y="0">
+        <img src="assets/p05.webp" width="1800" height="883" loading="lazy" alt="Sección Branding">
+      </figure>
+    </section>
+
+    <!-- 6. PELKU -->
+    <section id="pelku" class="sec stack" data-title="PELKU">
+      <h2 class="sr-only">PELKU — Identidad de marca veterinaria, 2026</h2>
+      <figure class="reveal zoomable depth" data-full="assets/full/p06.webp" data-y="0"><img src="assets/pelku-1.webp" width="1800" height="675" loading="lazy" alt="PELKU, identidad de marca veterinaria. Logotipo y perro con sudadera"></figure>
+      <figure class="reveal zoomable" data-full="assets/full/p06.webp" data-y="0.189"><img src="assets/pelku-2.webp" width="1800" height="1023" loading="lazy" alt="PELKU: el momento de cuidar es mucho antes del diagnóstico. Bocetos y propuesta final. Colores #CCCC09 y #176B87"></figure>
+      <figure class="reveal zoomable" data-full="assets/full/p06.webp" data-y="0.475"><img src="assets/pelku-3.webp" width="1800" height="697" loading="lazy" alt="PELKU: tarjetas, bolsas, comederos y patrones"></figure>
+      <figure class="reveal zoomable" data-full="assets/full/p06.webp" data-y="0.67"><img src="assets/pelku-4.webp" width="1800" height="1179" loading="lazy" alt="PELKU: furgoneta de la Clínica Veterinaria, redes @PelkuVet"></figure>
+    </section>
+
+    <!-- 7. CANGARU -->
+    <section id="cangaru" class="sec stack" data-title="Cangaru">
+      <h2 class="sr-only">Cangaru Training Club — Identidad de un training club, 2026</h2>
+      <figure class="reveal zoomable depth" data-full="assets/full/p07.webp" data-y="0"><img src="assets/cangaru-1.webp" width="1800" height="1045" loading="lazy" alt="Cangaru Training Club, identidad visual sobre fotografía de entrenamiento"></figure>
+      <figure class="reveal zoomable" data-full="assets/full/p07.webp" data-y="0.262"><img src="assets/cangaru-2.webp" width="1800" height="1196" loading="lazy" alt="Cangaru: Activa tu impulso. Boceto, evolución del isotipo y versiones del logotipo"></figure>
+      <figure class="reveal zoomable" data-full="assets/full/p07.webp" data-y="0.562"><img src="assets/cangaru-3.webp" width="1800" height="1268" loading="lazy" alt="Cangaru: fachada, flyer Libera el impulso, tarjetas y camisetas"></figure>
+      <figure class="reveal zoomable" data-full="assets/full/p07.webp" data-y="0.866"><img src="assets/cangaru-4.webp" width="1800" height="479" loading="lazy" alt="Cangaru Training Club, logotipo y redes @CangaruTraining"></figure>
+    </section>
+
+    <!-- 8. CIERRE Y CONTACTO -->
+    <section id="contacto" class="sec" data-title="Contacto">
+      <figure class="reveal sep contact">
+        <img src="assets/p08.webp" width="1800" height="883" loading="lazy" alt="¿Tienes una idea? Let’s make it! behance.net/gielvioleta · giaselvioleta22feb@gmail.com">
+        <a class="hot" style="left:18%;top:49%;width:44%;height:13%" href="https://www.behance.net/gielvioleta" target="_blank" rel="noopener" aria-label="Behance de Giel Violeta"></a>
+        <a class="hot" style="left:18%;top:64%;width:46%;height:13%" href="mailto:giaselvioleta22feb@gmail.com" aria-label="Escribir a giaselvioleta22feb@gmail.com"></a>
+      </figure>
+    </section>
+  </main>
+
+  <!-- E. Volver arriba -->
+  <button class="totop" id="toTop" aria-label="Volver al inicio"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+
+  <!-- D. Vista ampliada -->
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Vista ampliada" aria-hidden="true">
+    <div class="lb__scroll" id="lbScroll"><img id="lbImg" alt=""></div>
+    <div class="lb__bar">
+      <span class="lb__count" id="lbCount"></span>
+      <button id="lbZoom" aria-label="Alternar zoom">Zoom</button>
+      <button id="lbClose" aria-label="Cerrar (Esc)">Cerrar ✕</button>
+    </div>
+    <button class="lb__nav lb__prev" id="lbPrev" aria-label="Página anterior">‹</button>
+    <button class="lb__nav lb__next" id="lbNext" aria-label="Página siguiente">›</button>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
